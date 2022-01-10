@@ -1,0 +1,170 @@
+.selector-for-some-widget {
+    box-sizing: border-box;
+  }
+
+  
+* {
+  margin: 0;
+  padding: 0
+  }
+  
+  body{
+      position: relative;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+  }
+
+  .col-12 col-lg-6{
+    margin: 10;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img{
+    width: 90%;
+}
+
+.navbar-brand{
+  border: none;
+  color: #cccccc;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+ }
+ 
+ .navbar-brand:hover{
+     color: black !important;
+ }
+ 
+ .navbar-brand:hover {
+   opacity: 1;
+  }
+ 
+ .nav-link{
+     border: none;
+     color: #c29bbd;
+     padding: 16px 32px;
+     text-align: center;
+     font-size: 16px;
+     margin: 4px 2px;
+     opacity: 0.6;
+     transition: 0.3s;
+    }
+    
+    .nav-link:hover{
+        color: black !important;
+    }
+    
+    .nav-link:hover {opacity: 1;}
+
+    .flex-container {
+      display: flex;
+      background-color: #f1f1f1;
+    }
+    
+    .flex-container > div {
+  
+      color: black;
+      
+      margin: 10px;
+      text-align: center;
+  
+      font-size: 10px;
+    }
+
+    .navbar{
+      align-items: center;
+    }
+  
+
+    .bilde{
+      text-align: center;
+    }
+  
+    .forsidebilde{
+      height: 350px;     
+    }
+
+    .overskrift_tekst{
+      font-family: sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      margin-left: -700px;
+      padding-top: 20px;
+    }
+
+    .linje_strek{
+      width: 50%;
+      margin-left: 290px;
+    }
+
+    .tekst_tekst{
+      margin-left: 290px;
+      width: 920px;
+    }
+
+    .kontakt_hyperlink{
+      text-decoration: none;
+      color: black;
+    }
+
+    .kontakt_oss_overskrift{
+      padding-left: 200px;
+      margin: 10px;
+    }
+
+  .linje_strek2{
+    width: 50%;
+    margin-left: 180px;
+  }
+
+  .icon_prefix{
+    height: 300px;
+  }
+
+  .row_home{
+    padding-left: 622.8px;
+    font-size: 30px;
+  }
+
+  .col-lg-4{
+    height: 120px;
+    width: 64px;
+  }
+
+  .ansatt-item-summary{
+    width: 200px;
+  }
+
+  .rolf_tekst{
+    width: 390px;
+    font-size: 15px;
+  }
+
+  .sem_tekst{
+    width: 390px;
+    font-size: 15px;
+  }
+
+  .img_rune{
+    float: left;
+  }
+
+  #sem_box{
+    float: right;
+  }
+
+  #rune_box{
+    float: left;
+  }
