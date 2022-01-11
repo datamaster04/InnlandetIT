@@ -3,25 +3,25 @@ import React from 'react'
 export default function Home() {
     return (
         <section>
-        <div class="row_home">
-            <div class="overskrift_home">
+        <div className="row_home">
+            <div className="overskrift_home">
             Stabben
             </div>
 
-            <div class="col-lg-4 ansatt-item boxnr1" style="padding: 25px;">
-            <div class="ansatt-item-image imgborder100">
+            <div className="col-lg-4 ansatt-item boxnr1" style={{padding: "25px"}}>
+            <div className="ansatt-item-image imgborder100">
                 <div id="rune_box">
-                <div class="img_rune"><img src="/images/rune.jpg" />
+                <div className="img_rune"><img src="/images/rune.jpg" />
                 </div>
-                <div class="ansatt-item-box">
-                <div class="ansatt-item-name">
+                <div className="ansatt-item-box">
+                <div className="ansatt-item-name">
                     Rolf Karlsson
                 </div>
-                <div class="ansatt-item-title">
+                <div className="ansatt-item-title">
                     Daglig leder
                 </div>
-                <div class="ansatt-item-summary">
-                    <p class="rolf_tekst">
+                <div className="ansatt-item-summary">
+                    <p className="rolf_tekst">
                     Lang og bred erfaring fra mange områder 
                     innen IKT og IKT ledelse. Kvalifikasjoner 
                     innen IT design, arkitektur, prosjektledelse, 
@@ -38,20 +38,20 @@ export default function Home() {
             </div>
             </div>
 
-            <div class="col-lg-4 ansatt-item boxnr1" style="padding: 25px;">
-            <div class="ansatt-item-image imgborder100">
+            <div className="col-lg-4 ansatt-item boxnr1" style={{padding: "25px"}}>
+            <div className="ansatt-item-image imgborder100">
                 <div id="sem-box">
-                <div class="img_sem"><img src="/images/rune.jpg" />
+                <div className="img_sem"><img src="/images/rune.jpg" />
                 </div>
-                <div class="ansatt-item-box">
-                <div class="ansatt-item-name">
+                <div className="ansatt-item-box">
+                <div className="ansatt-item-name">
                     Rolf Karlsson
                 </div>
-                <div class="ansatt-item-title">
+                <div className="ansatt-item-title">
                     Daglig leder
                 </div>
-                <div class="ansatt-item-summary">
-                    <p class="sem_tekst">
+                <div className="ansatt-item-summary">
+                    <p className="sem_tekst">
                     Lang og bred erfaring fra mange områder 
                     innen IKT og IKT ledelse. Kvalifikasjoner 
                     innen IT design, arkitektur, prosjektledelse, 
