@@ -16,7 +16,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Pages.Home />} />
 
-        <Route path="*" element={<Navigate to="/" />} />
+        <Route path="om-oss" element={<Pages.Om_oss />} />
+        <Route path="kontakt-oss" element={<Pages.kontakt_oss />} />
+        <Route path="logg-inn" element={<Pages.logg_inn />} />
+        <Route path="registrer" element={<Pages.registrer />} />
       </Routes>
     </BrowserRouter>
     </>
