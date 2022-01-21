@@ -39,7 +39,7 @@ export default function Home() {
             </div>
 
             <div className="col-lg-4 ansatt-item boxnr1" style={{padding: "25px"}}>
-            <div className="ansatt-item-image imgborder100">
+            <div className="ansatt-item-image imgborder1l00">
                 <div id="sem-box">
                 <div className="img_sem"><img src="/images/rune.jpg" />
                 </div>
